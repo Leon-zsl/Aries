@@ -4,7 +4,9 @@
   "description": "SPA framework",
   "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,9 @@
   "homepage": "https://github.com/Leon-zsl/aries",
   "devDependencies": {
     "babel": "^6.3.26",
-    "webpack": "^1.12.9"
+    "html-webpack-plugin": "^1.7.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "react": "^0.14.5",
