@@ -40,9 +40,15 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bootstrap-webpack": "0.0.5",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "history": "^1.17.0",
+    "imports-loader": "^0.6.5",
+    "jquery": "^2.1.4",
     "react": "^0.14.5",
     "react-router": "^2.0.0-rc4",
-    "redux": "^3.0.5",
-    "jquery": "^2.1.4"
+    "redux": "^3.0.5"
   }
 }
