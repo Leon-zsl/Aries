@@ -9,5 +9,12 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'build'),
 		filename: 'bundle.js',
+	},
+	module: {
+		loaders: [{test: /\.jsx?$/, loaders: ['react-hot','babel']},
+				  {test: /\.css$/, loader: 'stype!css'},
+				  {test: /\.less$/, loader: 'style!css!less'},
+				  {test: /\.(png|jpg|jpeg)$/, loader:'url?limit=25600'}
+		]
 	}
 }
