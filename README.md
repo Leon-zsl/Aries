@@ -1,2 +1,2 @@
 # Aries
-Single Page Web App Framework
+Single Page Web App Framework Based On React + Redux
